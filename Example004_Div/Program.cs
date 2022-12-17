@@ -1,4 +1,6 @@
-﻿double a = 15;
-double b = 7;
+﻿double a = new Random().Next(1,25);
+Console.WriteLine (a);
+double b = new Random().Next(4,45);
+Console.WriteLine (b);
 Console.WriteLine (a/b);
 
